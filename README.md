@@ -9,7 +9,7 @@
 ## Features
 
 - Accepts natural language like:  
-  `A Spring Boot backend with a Svelte frontend and PostgreSQL`
+  `A Flask API with SQLite and a Svelte frontend`
 - Outputs a clean, structured folder layout
 - Interactive: delete nodes, retry prompt, modify before building
 - Build your file/folder structure instantly in any directory
