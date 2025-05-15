@@ -45,6 +45,9 @@ scaffoldgen -debug "NestJS backend and Angular admin panel"
 
 ## Example Output
 
+
+
+```plaintext
 Current Project Structure:
 [1]  lunar-tracking-app/
 [2]  ├── backend/
@@ -66,6 +69,7 @@ Current Project Structure:
 [18] └── README.md
 
 Actions: [c]reate, [d <id>]elete, [r]e-prompt, [a]bort: c
+```
 
 ## .env Setup
 
