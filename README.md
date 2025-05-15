@@ -28,47 +28,46 @@ go install github.com/kingl0w/ScaffGen@latest
 In any project folder, run:
 
 ```bash
-scaffoldgen "I want a Flask API with SQLite and a Svelte frontend"
+ScaffGen "I want a Flask API with SQLite and a Svelte frontend"
 ```
 
 To specify an output folder:
 
 ```bash
-scaffoldgen -o project-folder "Flask API + React frontend"
+ScaffGen -o project-folder "Flask API + React frontend"
 ```
 
 To enable debug parsing logs:
 
 ```bash
-scaffoldgen -debug "NestJS backend and Angular admin panel"
+ScaffGen -debug "NestJS backend and Angular admin panel"
 ```
 
 ## Example Output
 
 
-
 ```plaintext
 Current Project Structure:
-[1]  lunar-tracking-app/
+[1]  flask-svelte-api/
 [2]  ├── backend/
-[3]  │   ├── main.go
-[4]  │   └── models/
-[5]  │       ├── utils/
-[6]  │       └── helpers.go
-[7]  ├── frontend/
-[8]  │   ├── public/
-[9]  │   │   └── index.html
-[10] │   ├── src/
-[11] │   ├── components/
-[12] │   │   ├── LunarTracker.js
-[13] │   │   └── App.js
-[14] │   ├── index.js
-[15] │   └── styles/
-[16] │       └── App.css
-[17] ├── .gitignore
+[3]  │   ├── app.py
+[4]  │   ├── __init__.py
+[5]  │   ├── models.py
+[6]  │   ├── routes.py
+[7]  │   ├── config.py
+[8]  │   └── database.db
+[9]  ├── frontend/
+[10] │   ├── public/
+[11] │   │   └── index.html
+[12] │   ├── src/
+[13] │   │   ├── main.js
+[14] │   │   ├── components/
+[15] │   │   │   └── App.svelte
+[16] │   │   └── main.css
+[17] │   └── .gitignore
 [18] └── README.md
 
-Actions: [c]reate, [d <id>]elete, [r]e-prompt, [a]bort: c
+Actions: [c]reate, [d <id>]elete, [r]e-prompt, [a]bort: 
 ```
 
 ## .env Setup
@@ -89,6 +88,6 @@ ScaffGen creates your project files and folders locally.
 
 ## Contributing
 
-Pull requests and suggestions welcome! I built this as a personal tool but hopefully someone else will find it useful
+Pull requests and suggestions welcome. I built this as a personal tool but hopefully someone else will find it useful
 
 Feel free to fork or submit issues in the GitHub repo.
