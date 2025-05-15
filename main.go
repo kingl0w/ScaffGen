@@ -53,6 +53,7 @@ func main() {
 		}
 	}
 
+	//I used groq but it can be any llm just provide key, model, and api
 	apiKey := os.Getenv("GROQ_API_KEY")
 	model := os.Getenv("MODEL")
 	groqAPI := os.Getenv("GROQ_API_URL")
