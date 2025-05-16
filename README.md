@@ -23,12 +23,16 @@
 go install github.com/kingl0w/ScaffGen@latest
 ```
 
+or
+
+Clone the repo and use it locally 
+
 ## Usage
 
 In any project folder, run:
 
 ```bash
-ScaffGen "I want a Flask API with SQLite and a Svelte frontend"
+ScaffGen "Flask API with SQLite and a Svelte frontend"
 ```
 
 To specify an output folder:
